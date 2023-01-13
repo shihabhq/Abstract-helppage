@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: gta;
+    src: url(../font/GT\ America\ Regular.ttf);
+}
+
+.transform-x {
+    transform: rotate(45deg);
+}
+
+.transform-y {
+    transform: rotate(-45deg);
+}
+
+.ham {
+    position: absolute;
+    right: 0;
+    height: 1.5px;
+    width: 18px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 20px;
+    transition: all .15s ease-in;
+}
+
+.ham:nth-child(2) {
+    top: 5px;
+}
+
+.ham:nth-child(3) {
+    top: 10px;
+}
+
+.ham-rotate1 {
+    transform: rotate(45deg);
+    top: 5px;
+}
+
+.ham-rotate2 {
+    transform: rotate(-45deg);
+    top: 5px !important;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.alignm {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-div:hover i {
+    color: #4C5FD5;
+}
+
+.service img {
+    width: 62px;
+}
