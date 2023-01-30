@@ -7,7 +7,7 @@ hamburger.addEventListener("click", function () {
     firstBar.classList.toggle("ham-rotate1");
     secondBar.classList.toggle("opacity-0");
     thirdBar.classList.toggle("ham-rotate2");
-})
+});
 
 //magnifier 
 const navElements = document.querySelector(".nav-element");
@@ -20,11 +20,11 @@ magnifier.addEventListener("click", function () {
     navElements.classList.add("hidden");
     searchDiv.classList.add("flex");
     searchDiv.classList.remove("hidden");
-})
+});
 
 xmark.addEventListener("click", function () {
     navElements.classList.remove("hidden");
     navElements.classList.add("flex");
     searchDiv.classList.add("hidden");
     searchDiv.classList.remove("flex");
-})
+});
