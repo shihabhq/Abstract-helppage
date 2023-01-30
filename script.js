@@ -16,22 +16,15 @@ searchDiv = document.querySelector("#search-div");
 xmark = document.querySelector("#xmark");
 
 magnifier.addEventListener("click", function () {
-    navElements.classList.remove("flex")
-    navElements.classList.add("hidden")
-    searchDiv.classList.add("flex")
-    searchDiv.classList.remove("hidden")
+    navElements.classList.remove("flex");
+    navElements.classList.add("hidden");
+    searchDiv.classList.add("flex");
+    searchDiv.classList.remove("hidden");
 })
 
 xmark.addEventListener("click", function () {
-    navElements.classList.remove("hidden")
-    navElements.classList.add("flex")
-    searchDiv.classList.add("hidden")
-    searchDiv.classList.remove("flex")
+    navElements.classList.remove("hidden");
+    navElements.classList.add("flex");
+    searchDiv.classList.add("hidden");
+    searchDiv.classList.remove("flex");
 })
-
-// function searchOperation(a, b, c, d) {
-//     navElements.classList.remove(a);
-//     navElements.classList.add(b);
-//     searchDiv.classList.add(c);
-//     searchDiv.classList.remove(d);
-// }
